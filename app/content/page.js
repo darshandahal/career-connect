@@ -1,3 +1,4 @@
+import Image from 'next/image';
 export default function Page() {
     return (
         <div className="flex flex-col items-center py-8 px-4">
@@ -9,10 +10,12 @@ export default function Page() {
                         key={index}
                         className="relative group cursor-pointer rounded-lg overflow-hidden shadow-md"
                     >
-                        <img
+                        <Image
                             src={`/images/job-field-${index + 1}.jpg`} 
                             alt={field}
-                            className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
+                            className="object-cover transition-transform duration-300 group-hover:scale-110"
+                            width={500}
+                            height={300}
                         />
                         <div className="absolute bottom-0 left-0 right-0 bg-gray-800 bg-opacity-75 text-white py-2 px-4">
                             {field}
@@ -23,7 +26,7 @@ export default function Page() {
 
             <div className="flex flex-col md:flex-row items-center mt-12 w-full max-w-6xl gap-6">
                 <div className="w-full md:w-1/2">
-                    <img
+                    <Image
                         src="/images/job-banner.jpg" 
                         alt="Find Your Job"
                         className="rounded-lg shadow-md"
