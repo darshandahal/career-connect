@@ -30,6 +30,8 @@ export default function Page() {
                         src="/images/job-banner.jpg" 
                         alt="Find Your Job"
                         className="rounded-lg shadow-md"
+                        width={500}
+                        height={300}
                     />
                 </div>
                 <div className="w-full md:w-1/2 text-center md:text-left">
