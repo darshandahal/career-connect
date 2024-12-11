@@ -18,7 +18,7 @@ export default function page() {
         </p>
       </div>
       <div className="bg-blue height-30px width-50px rounded-lg shadow-md p-3">
-        <button className="bg-blue-500 text-white text-2xl font-bold py-2 px-4 rounded hover:bg-blue-600"><Link href="/login">Click to Get started</Link></button>
+        <a href="/login" className="bg-blue-500 text-white text-2xl font-bold py-2 px-4 rounded hover:bg-blue-600">Get Started</a>
       </div>
     </div>
   )
