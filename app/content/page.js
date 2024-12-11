@@ -35,7 +35,7 @@ export default function Page() {
                     />
                 </div>
                 <div className="w-full md:w-1/2 text-center md:text-left">
-                    <h3 className="text-2xl font-semibold text-gray-800 mb-4">Find The Job That's Right for You</h3>
+                    <h3 className="text-2xl font-semibold text-gray-800 mb-4">Find The Job Thats Right for You</h3>
                     <input
                         type="text"
                         placeholder="Search Here"
